@@ -1,0 +1,10 @@
+
+export default function robots() {
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://astroport.it/sitemap.xml",
+  };
+}
